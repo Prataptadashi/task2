@@ -1,0 +1,117 @@
+body{
+    background-image: url("/images/ntr.png");/*/images/photoWebBG4.jpg */
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment:fixed;
+    background-size: cover;
+
+}
+
+
+ul{
+    list-style-type:none;
+    margin-top: 40px ;
+    padding: 0px;
+    padding-inline-start: 10pfjuvbsn
+    mfmrf kvfv,fvp;
+   
+}
+
+li a{
+    float: left;
+    text-decoration: none;
+    padding: 5px;
+    color:aliceblue ;
+    text-align: center;
+   font-size:20px;
+    margin: 4px;   /*
+    border-style: outset;
+    border-color:darkturquoise;
+   text-shadow: 2px -2px 2px whitesmoke ;*/
+  margin-right:10px ;
+
+}
+
+.gty{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:flex-end;
+    /*background-color: rgb(9, 82, 239);*/
+}
+
+.companyName{
+    color:rgb(239, 11, 76);
+    margin-top: 2%;
+    margin-left: 1%;
+    font-size:50px;
+    font-family: "Ink free",sans-serif;
+    text-shadow: 2px -3px 2px rgb(12, 200, 225);
+}
+
+.message{
+    color:rgb(247, 247, 247);
+    
+    margin-top:150px;
+    margin-left:67% ;
+    font-size:21px;
+    font-family: "Mv Boli",sans-serif;
+}
+
+img{
+    width: 300px;
+    height: 150px;
+    margin-top: 0px;
+    margin-left: 10px;
+
+}
+
+li a:hover{
+    background-color:black;
+   
+    animation: menuButton;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes menuButton{
+    50%{transform: scale(1.1,1.2);}
+}
+/*
+#albumButton{
+    margin-left:45% ;
+    font-size:21px;
+    font-family: "Mv Boli",sans-serif; } */
+
+button#albumButton{
+
+
+
+    margin-left:75% ;
+    font-size:21px;
+    font-family: "Mv Boli",sans-serif; 
+
+
+    color: rgb(239, 240, 241);
+    background-color:black;
+    animation: menuButton1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes menuButton1{
+   
+    50%{transform: rotate(3600deg);}
+   
+}
+#albumButton:hover{
+    color: rgb(240, 244, 236);
+    background-color:black;
+    animation: menuButton2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes menuButton2{
+    50%{transform: scale(1.1,1.2);}
+}
